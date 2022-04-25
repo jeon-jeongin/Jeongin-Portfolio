@@ -1,9 +1,13 @@
-import { HomeContainer, InfoContainer, InfoContent } from "./shared/HomeComponents";
+import { Box } from "@material-ui/core";
+import { InfoContainer, InfoContent, MoreButton } from "./shared/HomeComponents";
+import { SharedContainers, SharedContainer } from "./shared/Shared";
+import { ArrowDownward } from '@material-ui/icons';
+import Link from "react-scroll/modules/components/Link";
 
 function Home() {
     return (
-        <div>
-            <HomeContainer id="Home">
+        <SharedContainers id="Home" style={{ backgroundColor: '#f1f3ef' }}>
+            <SharedContainer>
                 <InfoContainer>
                     안녕하세요.
                     <br />
@@ -12,12 +16,17 @@ function Home() {
                     전정인입니다.
                 </InfoContainer>
                 <InfoContent>
-                    게속해서 성장하고 싶은 개발자입니다.
+                    계속해서 성장하고 싶은 개발자입니다.
                     <br />
                     문제가 발생하여도 포기하지 않고 끝까지 디버깅을 시도하는 끈기를 가지고 있습니다.
                 </InfoContent>
-            </HomeContainer>
-        </div>
+                <Link to="About me" spy={true} smooth={true}>
+                    <Box style={{ textAlign: 'center' }}>
+                        <MoreButton> 더 알아보기 <ArrowDownward /></MoreButton>
+                    </Box>
+                </Link>
+            </SharedContainer>
+        </SharedContainers>
     );
 };
 
