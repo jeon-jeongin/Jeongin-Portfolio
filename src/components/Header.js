@@ -4,7 +4,7 @@ import MobileHeader from "./Mobile/MobileHeader";
 
 const MyComponent = () => {
     const { width } = useViewport();
-    const breakpoint = 600;
+    const breakpoint = 760;
 
     return width < breakpoint ? <MobileHeader /> : <DesktopHeader />
 };

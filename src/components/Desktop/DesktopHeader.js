@@ -7,11 +7,11 @@ function DesktopHeader() {
         <MyAppBar position="fixed">
             <HeaderBar>
                 <Toolbar>
-                    <Link to="Home" spy={true} smooth={true} offset={0}>
+                    <Link to="Home" spy={true} smooth={true}>
                         <HomeMenu variant="h6" color="textPrimary">JJI's Portfolio</HomeMenu>
                     </Link>
                     <Grow />
-                    <Link to="About me" spy={true} smooth={true} offset={0}>
+                    <Link to="About me" spy={true} smooth={true}>
                         <HeaderButton>About me</HeaderButton>
                     </Link>
                     <Link to="Skills" spy={true} smooth={true}>

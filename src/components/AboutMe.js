@@ -63,7 +63,11 @@ function AboutMe() {
                             <BusinessCenter />
                             <InfoItems>
                                 <InfoTitle>학력</InfoTitle>
-                                <InfoContent>동양미래대학교</InfoContent>
+                                <InfoContent>
+                                    동양미래대학교
+                                    <br />
+                                    정보통신공학과
+                                </InfoContent>
                             </InfoItems>
                         </InfoWrapper>
                     </Grid>

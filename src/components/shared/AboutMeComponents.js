@@ -6,7 +6,7 @@ export const TitleContainer = styled(Box)({
     fontWeight: '700',
     wordBreak: 'keep-all',
     fontSize: '3.5rem',
-    padding: '2rem 0 1rem 0',
+    padding: '3rem 0 1rem 0',
     textAlign: 'center',
     [theme.breakpoints.down("sm")]: {
         fontSize: '3em',

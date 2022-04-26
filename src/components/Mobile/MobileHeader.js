@@ -1,4 +1,4 @@
-import { Box, IconButton, styled, Toolbar, Typography } from "@material-ui/core";
+import { Box, IconButton, styled, Toolbar } from "@material-ui/core";
 import Link from "react-scroll/modules/components/Link";
 import { useState } from "react";
 import { Grow, HeaderBar, HeaderButton, HomeMenu, MyAppBar } from "../shared/HeaderComponents";
