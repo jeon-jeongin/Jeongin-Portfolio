@@ -10,20 +10,22 @@ export const SkillsContainers = styled(Grid)({
 export const SkillsContaienr = styled(Paper)({
     width: '85%',
     margin: '0 auto',
-    padding: '1rem',
+    padding: '2rem',
+    borderRadius: '10px',
     "&:hover": {
         transform: 'scale(1.05)',
     },
 });
 
 export const SkillsTitleContainer = styled(Box)({
+    display: 'flex',
     fontWeight: '700',
     fontSize: '1.5rem',
 });
 
 export const ChartContainer = styled(Box)({
-    padding: '0 4rem',
+    padding: '0 3rem',
     [theme.breakpoints.down("xs")]: {
-        padding: '0rem 6rem',
+        padding: '0rem 5rem',
     },
 });

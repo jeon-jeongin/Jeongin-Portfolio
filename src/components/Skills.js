@@ -8,7 +8,7 @@ import DataBaseChart from "./Skills/DataBaseChart";
 
 function Skills() {
     return (
-        <SharedContainers id="Skills" style={{ backgroundColor: '#f7f3f9' }}>
+        <SharedContainers id="Skills" style={{ backgroundColor: '#aeadab' }}>
             <SharedContainer>
                 <TitleContainer>
                     <Title>

@@ -3,7 +3,7 @@ import { Title, TitleContainer } from "./shared/AboutMeComponents";
 
 function Projects() {
     return (
-        <SharedContainers id="Projects" style={{ backgroundColor: '#aeadab' }}>
+        <SharedContainers id="Projects" style={{ backgroundColor: '#fefefe' }}>
             <SharedContainer>
                 <TitleContainer>
                     <Title>

@@ -8,9 +8,12 @@ export const GlobalStyles = createGlobalStyle`
         padding: 0;
     }
     body{
-        font-size: 14px;
+        font-size: 16px;
         font-family:'Montserrat',sans-serif;
         color: '#336362e';
+    }
+    a{
+        text-decoration: none;
     }
 `;
 
