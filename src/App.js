@@ -1,5 +1,6 @@
 import AboutMe from "./components/AboutMe";
 import Archiving from "./components/Archiving";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
@@ -18,6 +19,7 @@ function App() {
         <Skills />
         <Archiving />
         <Projects />
+        <Footer />
       </ViewportProvider>
     </>
   );
