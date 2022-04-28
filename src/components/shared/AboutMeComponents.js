@@ -24,7 +24,7 @@ export const InfoContainer = styled(Grid)({
     flexWrap: 'wrap',
     margin: '1rem 0em 5rem 5em',
     [theme.breakpoints.down("xs")]: {
-        margin: '1rem 0em 5rem 10em'
+        margin: '1rem 0em 5rem 9em'
     },
 })
 

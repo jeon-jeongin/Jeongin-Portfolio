@@ -22,4 +22,5 @@ export const FontBold = styledComponents.span`
 
 export const Content = styledComponents.li`
     margin-top: 15px;
+    font-size: 14px;
 `
