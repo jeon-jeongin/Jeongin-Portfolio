@@ -10,3 +10,10 @@ export const SharedContainer = styled(Container)({
     position: 'relative',
     top: '64px',
 })
+
+export const UnderLine = styledComponents.hr`
+    width: 100%;
+    background-color: #fefefef;
+    margin: 10px 0;
+    border: solid 0.1px #dedede;
+`
