@@ -1,3 +1,4 @@
+import { Content } from "../shared/ProjectComponents";
 import { Element } from "./Element";
 import { Chart } from "./FrontChart";
 
@@ -7,12 +8,12 @@ function BackChart() {
             <Chart
                 data={[
                     {
-                        value: 40,
+                        value: 30,
                         color: '#E34F26',
                         name: "Node.js"
                     }
                 ]}
-                reveal={40}
+                reveal={30}
                 lineWidth={18}
                 background="#f3f3f3"
                 lengthAngle={360}
@@ -38,6 +39,9 @@ function BackChart() {
                 label={({ dataEntry, dataIndex }) => <Element key={dataIndex} {...dataEntry} />}
                 labelPosition={0}
             />
+            <Content>
+                mvc 구조의 이해
+            </Content>
             <Chart
                 data={[
                     {
@@ -55,6 +59,9 @@ function BackChart() {
                 label={({ dataEntry, dataIndex }) => <Element key={dataIndex} {...dataEntry} />}
                 labelPosition={0}
             />
+            <Content>
+                Apollo 캐시, Apollo client 등의 사용
+            </Content>
         </>
     )
 };
