@@ -18,7 +18,7 @@ function Footer() {
                 </a>
             </FooterContainer>
             <FooterContent>
-                © 2022. Jeon Jeong in. All rights reserved.
+                © 2022. Jeon Jeong In. All rights reserved.
             </FooterContent>
         </div>
     )

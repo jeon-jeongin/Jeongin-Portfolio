@@ -6,6 +6,7 @@ import { ProjectDay, ProjectsContaienr, ProjectTitile } from "./shared/ProjectCo
 import Modri from "./Project/Modri";
 import OurGoods from "./Project/OurGoods";
 import OurLife from "./Project/OurLife";
+import Portfolio from "./Project/Portfolio";
 
 function Projects() {
     return (
@@ -37,14 +38,7 @@ function Projects() {
                         </ProjectsContaienr>
                     </Grid>
                     <Grid item md={12} sm={12} xs={12} style={{ margin: '0 auto' }}>
-                        <ProjectsContaienr>
-                            <ProjectTitile variant="h4">
-                                포트폴리오 웹사이트
-                            </ProjectTitile>
-                            <ProjectDay variant="subtitle1">
-                                2022.04 (1人 개인 프로젝트)
-                            </ProjectDay>
-                        </ProjectsContaienr>
+                        <Portfolio />
                     </Grid>
                 </SkillsContainers>
             </SharedContainer>
