@@ -6,7 +6,14 @@ import Link from "react-scroll/modules/components/Link";
 
 function Home() {
     return (
-        <SharedContainers id="Home" style={{ backgroundColor: '#F9FAFB' }}>
+        <SharedContainers id="Home"
+            style={{
+                backgroundColor: '#F9FAFB',
+                backgroundImage: `url(${require('../images/background_image.png')})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'contain',
+                backgroundPosition: 'bottom right'
+            }}>
             <SharedContainer>
                 <InfoContainer>
                     고객과 서비스의 접점을 설계하는
