@@ -18,7 +18,7 @@ function Modri() {
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
     };
     return (
         <ProjectsContaienr>
@@ -26,7 +26,7 @@ function Modri() {
                 모드리 웹사이트
             </ProjectTitile>
             <ProjectDay variant="subtitle1">
-                2021.12 (1人 개인 프로젝트)
+                2021.12 | 개인 프로젝트
             </ProjectDay>
             <Grid container spacing={4}>
                 <Grid item md={7} sm={12} xs={12} style={{ margin: '0 auto' }}>

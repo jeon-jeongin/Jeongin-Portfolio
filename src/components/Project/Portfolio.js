@@ -23,7 +23,7 @@ function Portfolio() {
                 포트폴리오 웹사이트
             </ProjectTitile>
             <ProjectDay variant="subtitle1">
-                2022.04 (1人 개인 프로젝트)
+                2022.04 | 개인 프로젝트
             </ProjectDay>
             <Grid container spacing={3}>
                 <Grid item md={7} sm={12} xs={12} style={{ margin: '0 auto' }}>

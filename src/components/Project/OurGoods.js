@@ -26,7 +26,7 @@ function OurGoods() {
                 아워 굿즈 웹사이트
             </ProjectTitile>
             <ProjectDay variant="subtitle1">
-                2022.01 ~ 2022.02 (6人 팀 프로젝트)
+                2022.01 ~ 2022.02 | 팀 프로젝트
             </ProjectDay>
             <Grid container spacing={3}>
                 <Grid item md={7} sm={12} xs={12} style={{ margin: '0 auto' }}>
