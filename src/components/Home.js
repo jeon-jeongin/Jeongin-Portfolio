@@ -23,9 +23,9 @@ function Home() {
                     전정인입니다.
                 </InfoContainer>
                 <InfoContent>
-                    계속해서 성장하고 싶은 개발자입니다.
+                    몰입하고 성장하는 개발자 전정인입니다.
                     <br />
-                    문제가 발생하여도 포기하지 않고 끝까지 디버깅을 시도하는 끈기를 가지고 있습니다.
+                    끈기를 가지고 문제를 해결했을 때의 쾌감과 기쁨을 좋아합니다.
                 </InfoContent>
                 <Link to="About me" spy={true} smooth={true}>
                     <Box style={{ textAlign: 'center' }}>

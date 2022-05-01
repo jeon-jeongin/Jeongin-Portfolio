@@ -46,7 +46,7 @@ export const InfoMainContent = styled(Typography)({
     fontSize: '1rem',
     lineHeight: '1.7rem',
     color: '#666',
-    wordBreak: 'keep-all',
+    wordBreak: 'keep-all'
 });
 
 export const InfoContainer = styled(Grid)({
