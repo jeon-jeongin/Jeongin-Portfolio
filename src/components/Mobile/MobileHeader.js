@@ -2,6 +2,7 @@ import { Box, IconButton, styled, Toolbar } from "@material-ui/core";
 import Link from "react-scroll/modules/components/Link";
 import { useState } from "react";
 import { Grow, HeaderBar, HeaderButton, HomeMenu, MyAppBar } from "../shared/HeaderComponents";
+import WhatshotIcon from '@material-ui/icons/Whatshot';
 import { Menu } from '@material-ui/icons';
 
 function MobileHeader() {
@@ -12,7 +13,10 @@ function MobileHeader() {
             <HeaderBar>
                 <MyToolbar>
                     <Link to="Home" spy={true} smooth={true} onClick={() => { setVisible(false) }}>
-                        <HomeMenu variant="h6" color="textPrimary">JJI's Portfolio</HomeMenu>
+                        <HomeMenu variant="h6" color="textPrimary">
+                            <WhatshotIcon style={{ color: '#E66B63', paddingTop: '4px' }} />
+                            Jeon Jeongin
+                        </HomeMenu>
                     </Link>
                     <Grow />
                     <IconButton onClick={() => { setVisible(!visible) }}>

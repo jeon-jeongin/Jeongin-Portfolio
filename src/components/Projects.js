@@ -10,14 +10,14 @@ import Portfolio from "./Project/Portfolio";
 
 function Projects() {
     return (
-        <SharedContainers id="Projects" style={{ backgroundColor: '#aeadab' }}>
+        <SharedContainers id="Projects" style={{ backgroundColor: '#F9FAFB' }}>
             <SharedContainer>
                 <TitleContainer>
                     <Title>
                         Projects
                     </Title>
                 </TitleContainer>
-                <SkillsContainers container spacing={3}>
+                <SkillsContainers container spacing={2}>
                     <Grid item md={12} sm={12} xs={12} style={{ margin: '0 auto' }}>
                         <Modri />
                     </Grid>
@@ -33,7 +33,7 @@ function Projects() {
                                 뉴스 키즈 웹사이트
                             </ProjectTitile>
                             <ProjectDay variant="subtitle1">
-                                2022.03 ~ 2022.04 (5人 팀 프로젝트)
+                                2022.03 ~ 2022.04 | 팀 프로젝트
                             </ProjectDay>
                         </ProjectsContaienr>
                     </Grid>

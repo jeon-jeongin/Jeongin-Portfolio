@@ -6,10 +6,10 @@ import Link from "react-scroll/modules/components/Link";
 
 function Home() {
     return (
-        <SharedContainers id="Home" style={{ backgroundColor: '#f1f3ef' }}>
+        <SharedContainers id="Home" style={{ backgroundColor: '#F9FAFB' }}>
             <SharedContainer>
                 <InfoContainer>
-                    안녕하세요.
+                    고객과 서비스의 접점을 설계하는
                     <br />
                     프론트엔드 개발자
                     <br />

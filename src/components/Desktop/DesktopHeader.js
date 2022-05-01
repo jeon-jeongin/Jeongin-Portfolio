@@ -1,5 +1,6 @@
 import { Toolbar } from "@material-ui/core";
 import Link from "react-scroll/modules/components/Link";
+import WhatshotIcon from '@material-ui/icons/Whatshot';
 import { Grow, HeaderBar, HeaderButton, HomeMenu, MyAppBar } from "../shared/HeaderComponents";
 
 function DesktopHeader() {
@@ -8,7 +9,10 @@ function DesktopHeader() {
             <HeaderBar>
                 <Toolbar>
                     <Link to="Home" spy={true} smooth={true}>
-                        <HomeMenu variant="h6" color="textPrimary">JJI's Portfolio</HomeMenu>
+                        <HomeMenu variant="h6" color="textPrimary">
+                            <WhatshotIcon style={{ color: '#E66B63', paddingTop: '4px' }} />
+                            Jeon Jeongin
+                        </HomeMenu>
                     </Link>
                     <Grow />
                     <Link to="About me" spy={true} smooth={true}>

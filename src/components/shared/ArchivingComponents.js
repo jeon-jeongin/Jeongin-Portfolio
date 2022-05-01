@@ -16,11 +16,21 @@ export const SubTitle = styledComponents.div`
     }
 `
 
+export const ArchivingTitleContainer = styled(Box)({
+    display: 'flex',
+    fontWeight: '700',
+    fontSize: '1.5rem',
+});
+
+export const SubTitleContent = styled(Box)({
+    marginBottom: "1rem"
+});
+
 export const FontBold = styledComponents.span`
     font-weight: 600;
 `
 
 export const Content = styledComponents.li`
-    margin-top: 15px;
+    margin-top: 8px;
     font-size: 14px;
 `

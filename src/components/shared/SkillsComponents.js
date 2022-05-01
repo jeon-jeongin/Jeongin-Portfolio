@@ -10,8 +10,9 @@ export const SkillsContainers = styled(Grid)({
 export const SkillsContaienr = styled(Paper)({
     width: '85%',
     margin: '0 auto',
+    boxShadow: '-10px 10px 20px #C7CAD1',
     padding: '2rem',
-    borderRadius: '10px',
+    borderRadius: '30px',
     "&:hover": {
         transform: 'scale(1.05)',
     },
@@ -19,8 +20,8 @@ export const SkillsContaienr = styled(Paper)({
 
 export const SkillsTitleContainer = styled(Box)({
     display: 'flex',
-    fontWeight: '700',
-    fontSize: '1.5rem',
+    fontSize: '1.2rem',
+    color: '#666',
 });
 
 export const ChartContainer = styled(Box)({

@@ -8,7 +8,7 @@ import DataBaseChart from "./Skills/DataBaseChart";
 
 function Skills() {
     return (
-        <SharedContainers id="Skills" style={{ backgroundColor: '#aeadab' }}>
+        <SharedContainers id="Skills" style={{ backgroundColor: '#F9FAFB' }}>
             <SharedContainer>
                 <TitleContainer>
                     <Title>
@@ -19,7 +19,7 @@ function Skills() {
                     <Grid item md={4} sm={6} xs={12} style={{ margin: '0 auto' }}>
                         <SkillsContaienr>
                             <SkillsTitleContainer>
-                                Fontend
+                                Front-end
                             </SkillsTitleContainer>
                             <ChartContainer>
                                 <FrontChart />
@@ -29,7 +29,7 @@ function Skills() {
                     <Grid item md={4} sm={6} xs={12}>
                         <SkillsContaienr>
                             <SkillsTitleContainer>
-                                Backend
+                                Back-end
                             </SkillsTitleContainer>
                             <ChartContainer>
                                 <BackChart />

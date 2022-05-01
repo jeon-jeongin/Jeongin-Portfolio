@@ -16,7 +16,10 @@ export const Grow = styledComponents.div`
 `
 export const HeaderButton = styled(Button)({
     fontFamily: 'Montserrat ,sans-serif',
-    fontWeight: '600',
+    fontSize: '0.8rem',
+    fontWeight: '500',
+    color: '#666',
+    marginRight: '0.5rem',
     [theme.breakpoints.down("sm")]: {
         width: '100%',
         justifyContent: 'left',

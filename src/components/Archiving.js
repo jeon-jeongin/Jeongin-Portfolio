@@ -2,13 +2,13 @@ import GitLogo from '../images/github.svg';
 import NaverLogo from '../images/naver.svg';
 import { SharedContainers, SharedContainer } from "./shared/Shared";
 import { Title, TitleContainer } from "./shared/AboutMeComponents";
-import { SkillsContaienr, SkillsContainers, SkillsTitleContainer } from "./shared/SkillsComponents";
+import { SkillsContaienr, SkillsContainers } from "./shared/SkillsComponents";
 import { Grid } from "@material-ui/core";
-import { ArchivingContent, ArchivingTitle, Content, FontBold, SubTitle } from './shared/ArchivingComponents';
+import { ArchivingContent, ArchivingTitle, ArchivingTitleContainer, Content, FontBold, SubTitle, SubTitleContent } from './shared/ArchivingComponents';
 
 function Archiving() {
     return (
-        <SharedContainers id="Archiving" style={{ backgroundColor: '#f7f3f9' }}>
+        <SharedContainers id="Archiving">
             <SharedContainer>
                 <TitleContainer>
                     <Title>
@@ -19,15 +19,17 @@ function Archiving() {
                     <Grid item md={6} sm={12} xs={12} style={{ margin: '0 auto' }}>
                         <a href="https://github.com/jeon-jeongin" target='_blank' rel="noreferrer">
                             <SkillsContaienr>
-                                <SkillsTitleContainer>
+                                <ArchivingTitleContainer>
                                     <img width="50px" height="50px" src={GitLogo} alt="git logo" />
                                     <ArchivingTitle>GitHub</ArchivingTitle>
-                                </SkillsTitleContainer>
+                                </ArchivingTitleContainer>
                                 <ArchivingContent>
                                     <SubTitle>
                                         github.com/jeon-jeongin
                                     </SubTitle>
-                                    <FontBold>소스 코드 저장소</FontBold>{" "} 입니다.
+                                    <SubTitleContent>
+                                        <FontBold>소스 코드 저장소</FontBold>{" "} 입니다.
+                                    </SubTitleContent>
                                     <Content>
                                         프로젝트, 엡의 소스 코드
                                     </Content>
@@ -41,15 +43,17 @@ function Archiving() {
                     <Grid item md={6} sm={12} xs={12}>
                         <a href="https://blog.naver.com/wjddls1702" target='_blank' rel="noreferrer">
                             <SkillsContaienr>
-                                <SkillsTitleContainer>
+                                <ArchivingTitleContainer>
                                     <img width="50px" height="50px" src={NaverLogo} alt="git logo" />
                                     <ArchivingTitle>Blog</ArchivingTitle>
-                                </SkillsTitleContainer>
+                                </ArchivingTitleContainer>
                                 <ArchivingContent>
                                     <SubTitle>
                                         blog.naver.com/wjddls1702
                                     </SubTitle>
-                                    <FontBold>공부 정리 목적의 블로그</FontBold>{" "} 입니다.
+                                    <SubTitleContent>
+                                        <FontBold>공부 정리 목적의 블로그</FontBold>{" "} 입니다.
+                                    </SubTitleContent>
                                     <Content>
                                         멀티 캠퍼스 교육을 듣고 수업 복습 내용 기록
                                     </Content>

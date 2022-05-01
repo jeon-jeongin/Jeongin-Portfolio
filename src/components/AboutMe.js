@@ -16,7 +16,7 @@ function AboutMe() {
                     <Grid item md={12} sm={12} xs={12}>
                         <Info>
                             <InfoMainTitle>왜 프론트엔드 개발자가 되고싶은가?</InfoMainTitle>
-                            <InfoMainContent variant="body2">
+                            <InfoMainContent>
                                 취업하고서도 더 성장하고 싶다는 생각을 가지고 있었습니다.
                                 처음에는 회사에 적응하고 일이 어렵게 느껴졌지만 적응하고서는 반복적인 일을 조금 더 시간을 효율적으로 사용하며 진행할 방법이 없겠냐는 의문을 가지게 되었습니다.
                                 반복적인 업무를 자동화 처리를 하기 위해서 파이선을 독학으로 언어 공부를 시작하였고, 처음에는 pyautogui를 사용하여 한 사람이 할 일을 컴퓨터로 돌려 다른 일을 할 수 있는 시간을 얻었습니다.
@@ -31,7 +31,7 @@ function AboutMe() {
                 <InfoContainer container spacing={3}>
                     <Grid item md={4} sm={6} xs={12}>
                         <InfoWrapper>
-                            <Person />
+                            <Person style={{ color: '#E66B63' }} />
                             <InfoItems>
                                 <InfoTitle>이름</InfoTitle>
                                 <InfoContent>전정인</InfoContent>
@@ -40,7 +40,7 @@ function AboutMe() {
                     </Grid>
                     <Grid item md={4} sm={6} xs={12}>
                         <InfoWrapper>
-                            <CalendarToday />
+                            <CalendarToday style={{ color: '#E66B63' }} />
                             <InfoItems>
                                 <InfoTitle>생년월일</InfoTitle>
                                 <InfoContent>1998.08.10</InfoContent>
@@ -49,7 +49,7 @@ function AboutMe() {
                     </Grid>
                     <Grid item md={4} sm={6} xs={12}>
                         <InfoWrapper>
-                            <Explore />
+                            <Explore style={{ color: '#E66B63' }} />
                             <InfoItems>
                                 <InfoTitle>주소지</InfoTitle>
                                 <InfoContent>경기도 부천시</InfoContent>
@@ -58,7 +58,7 @@ function AboutMe() {
                     </Grid>
                     <Grid item md={4} sm={6} xs={12}>
                         <InfoWrapper>
-                            <Call />
+                            <Call style={{ color: '#E66B63' }} />
                             <InfoItems>
                                 <InfoTitle>연락처</InfoTitle>
                                 <InfoContent>010-6539-6133</InfoContent>
@@ -67,7 +67,7 @@ function AboutMe() {
                     </Grid>
                     <Grid item md={4} sm={6} xs={12}>
                         <InfoWrapper>
-                            <Email />
+                            <Email style={{ color: '#E66B63' }} />
                             <InfoItems>
                                 <InfoTitle>이메일</InfoTitle>
                                 <InfoContent>wjddls1702@naver.com</InfoContent>
@@ -76,7 +76,7 @@ function AboutMe() {
                     </Grid>
                     <Grid item md={4} sm={6} xs={12}>
                         <InfoWrapper>
-                            <BusinessCenter />
+                            <BusinessCenter style={{ color: '#E66B63' }} />
                             <InfoItems>
                                 <InfoTitle>학력</InfoTitle>
                                 <InfoContent>

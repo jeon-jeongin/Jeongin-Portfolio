@@ -22,7 +22,7 @@ export const Title = styledComponents.span`
 
 export const Info = styled(Box)({
     textAlign: 'center',
-    marginBottom: '25px',
+    marginBottom: '3rem',
     width: '70%',
     margin: '0 auto'
 });
@@ -41,12 +41,11 @@ export const InfoMainTitle = styled(Typography)({
 
 export const InfoMainContent = styled(Typography)({
     textAlign: 'left',
-    fontWeight: '400',
+    fontWeight: '500',
     fontSize: '1rem',
+    lineHeight: '1.7rem',
+    color: '#666',
     wordBreak: 'keep-all',
-    [theme.breakpoints.down("xs")]: {
-        textAlign: 'center',
-    },
 });
 
 export const InfoContainer = styled(Grid)({
@@ -73,12 +72,14 @@ export const InfoItems = styledComponents.div`
 `
 
 export const InfoTitle = styledComponents.div`
-    font-weight: 700;
-    font-size: 1.5rem;
+    font-weight: 600;
+    font-size: 1.2rem;
     padding: 0 2rem;
 `
 
 export const InfoContent = styledComponents.div`
-    font-size: 16px;    
+    font-size: 1rem; 
+    font-weight: 500;
+    color: #666;
     padding: 0.5rem 2rem;
 `

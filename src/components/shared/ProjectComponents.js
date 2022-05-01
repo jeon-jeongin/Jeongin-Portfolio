@@ -5,15 +5,18 @@ import { theme } from "../../styles";
 export const ProjectsContaienr = styled(Paper)({
     width: '90%',
     margin: '0 auto',
+    marginBottom: '3rem',
     padding: '2rem 2rem 2.5rem 2rem',
-    borderRadius: '10px',
+    borderRadius: '20px',
+    boxShadow: '-10px 10px 20px #C7CAD1',
 });
 
 export const Content = styled(Box)({
-    margin: '4px 0 8px 0',
+    margin: '12px 0 24px 0',
     textAlign: 'center',
     fontSize: '14px',
     wordBreak: 'keep-all',
+    color: '#666',
     [theme.breakpoints.down("sm")]: {
         fontSize: '12px',
     },
@@ -44,10 +47,10 @@ export const ProjectSub = styled(Typography)({
     wordBreak: 'keep-all',
     marginBottom: '0.8rem',
     [theme.breakpoints.down("sm")]: {
-        margin: '1.5rem 0',
+        marginBottom: '0.7rem',
     },
     [theme.breakpoints.down("xs")]: {
-        margin: '1.5rem 0',
+        marginBottom: '0.6rem',
     },
 });
 
