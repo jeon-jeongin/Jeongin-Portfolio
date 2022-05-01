@@ -9,12 +9,13 @@ function DataBaseChart() {
                 data={[
                     {
                         value: 40,
-                        color: '#4479A1',
+                        color: '#E66B63',
                         name: "MySQL"
                     }
                 ]}
+                startAngle={270}
                 reveal={40}
-                lineWidth={18}
+                lineWidth={15}
                 background="#f3f3f3"
                 lengthAngle={360}
                 rounded
@@ -29,12 +30,13 @@ function DataBaseChart() {
                 data={[
                     {
                         value: 50,
-                        color: '#E10098',
+                        color: '#E66B63',
                         name: "GraphQL"
                     }
                 ]}
+                startAngle={270}
                 reveal={50}
-                lineWidth={18}
+                lineWidth={15}
                 background="#f3f3f3"
                 lengthAngle={360}
                 rounded

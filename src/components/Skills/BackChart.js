@@ -9,12 +9,13 @@ function BackChart() {
                 data={[
                     {
                         value: 30,
-                        color: '#E34F26',
+                        color: '#E66B63',
                         name: "Node.js"
                     }
                 ]}
+                startAngle={270}
                 reveal={30}
-                lineWidth={18}
+                lineWidth={15}
                 background="#f3f3f3"
                 lengthAngle={360}
                 rounded
@@ -22,16 +23,20 @@ function BackChart() {
                 label={({ dataEntry, dataIndex }) => <Element key={dataIndex} {...dataEntry} />}
                 labelPosition={0}
             />
+            <Content>
+                JavaScript 런타임의 이해
+            </Content>
             <Chart
                 data={[
                     {
                         value: 30,
-                        color: '#6DB33F',
+                        color: '#E66B63',
                         name: "Spring"
                     }
                 ]}
+                startAngle={270}
                 reveal={30}
-                lineWidth={18}
+                lineWidth={15}
                 background="#f3f3f3"
                 lengthAngle={360}
                 rounded
@@ -46,12 +51,13 @@ function BackChart() {
                 data={[
                     {
                         value: 40,
-                        color: '#311C87',
+                        color: '#E66B63',
                         name: "Apollo"
                     }
                 ]}
+                startAngle={270}
                 reveal={40}
-                lineWidth={18}
+                lineWidth={15}
                 background="#f3f3f3"
                 lengthAngle={360}
                 rounded

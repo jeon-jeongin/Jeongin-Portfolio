@@ -10,12 +10,13 @@ function FrontChart() {
                 data={[
                     {
                         value: 90,
-                        color: '#E34F26',
+                        color: '#E66B63',
                         name: "HTML"
                     }
                 ]}
+                startAngle={270}
                 reveal={90}
-                lineWidth={18}
+                lineWidth={15}
                 background="#f3f3f3"
                 lengthAngle={360}
                 rounded
@@ -30,12 +31,13 @@ function FrontChart() {
                 data={[
                     {
                         value: 80,
-                        color: '#3375BC',
+                        color: '#E66B63',
                         name: "CSS3"
                     }
                 ]}
+                startAngle={270}
                 reveal={80}
-                lineWidth={18}
+                lineWidth={15}
                 background="#f3f3f3"
                 lengthAngle={360}
                 rounded
@@ -50,12 +52,13 @@ function FrontChart() {
                 data={[
                     {
                         value: 90,
-                        color: '#FFCE00',
-                        name: "Javascript"
+                        color: '#E66B63',
+                        name: "JavaScript"
                     }
                 ]}
+                startAngle={270}
                 reveal={90}
-                lineWidth={18}
+                lineWidth={15}
                 background="#f3f3f3"
                 lengthAngle={360}
                 rounded
@@ -70,12 +73,13 @@ function FrontChart() {
                 data={[
                     {
                         value: 85,
-                        color: '#61DAFB',
+                        color: '#E66B63',
                         name: "React"
                     }
                 ]}
+                startAngle={270}
                 reveal={85}
-                lineWidth={18}
+                lineWidth={15}
                 background="#f3f3f3"
                 lengthAngle={360}
                 rounded
