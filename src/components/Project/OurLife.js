@@ -69,6 +69,7 @@ function OurLife() {
                         <ContentDetail>React, styled-components로 프론트엔드 작업</ContentDetail>
                         <ContentDetail>Apollo Server와 Node.js를 사용하여 Back-end 구축</ContentDetail>
                         <ContentDetail>Amazon S3를 사용하여 이미지 처리를 진행</ContentDetail>
+                        <ContentDetail>jwt를 통한 웹 토큰을 사용한 로그인 암호화 사용</ContentDetail>
                         <ContentDetail>dark-mode 적용</ContentDetail>
                     </Contents>
                     <ProjectSub variant="subtitle1">사용 기술</ProjectSub>
@@ -76,7 +77,7 @@ function OurLife() {
                         <ContentDetail>Frontend : React, CSS3</ContentDetail>
                         <ContentDetail>Backend : Node.js, Apollo, Prisma</ContentDetail>
                         <ContentDetail>DataBase : GraphQL</ContentDetail>
-                        <ContentDetail>Deployment : Amazom AWS, Amazom S3</ContentDetail>
+                        <ContentDetail>Deployment : Amazom S3</ContentDetail>
                     </Contents>
                     <ProjectSub variant="subtitle1">GitHub</ProjectSub>
                     <a href="https://github.com/jeon-jeongin/final-project-frontend" target='_blank' rel="noreferrer">
