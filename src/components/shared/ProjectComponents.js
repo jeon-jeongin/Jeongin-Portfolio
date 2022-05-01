@@ -33,7 +33,7 @@ export const ProjectTitile = styled(Typography)({
 export const ProjectDay = styled(Typography)({
     fontWeight: '500',
     textAlign: 'center',
-    padding: '0.5rem 0 1rem 0',
+    padding: '0.5rem 0 2.5rem 0',
     color: '#899197',
 });
 

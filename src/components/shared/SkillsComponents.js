@@ -21,6 +21,7 @@ export const SkillsContaienr = styled(Paper)({
 export const SkillsTitleContainer = styled(Box)({
     display: 'flex',
     fontSize: '1.2rem',
+    marginBottom: '1.2rem',
     color: '#666',
 });
 

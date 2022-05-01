@@ -29,7 +29,7 @@ function OurGoods() {
                 2022.01 ~ 2022.02 | 팀 프로젝트
             </ProjectDay>
             <Grid container spacing={3}>
-                <Grid item md={7} sm={12} xs={12} style={{ margin: '0 auto' }}>
+                <Grid item md={7} sm={12} xs={12} style={{ marginBottom: '1.5rem' }}>
                     <Slider {...settings}>
                         <div>
                             <Images src={main1} alt="메인 홈" />

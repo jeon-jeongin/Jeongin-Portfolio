@@ -31,6 +31,7 @@ export const InfoMainTitle = styled(Typography)({
     fontWeight: '700',
     fontSize: '1.5rem',
     padding: '1.5rem 0 0.5rem 0',
+    marginBottom: '1rem',
     [theme.breakpoints.down("sm")]: {
         fontSize: '1.3rem',
     },

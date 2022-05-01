@@ -30,7 +30,7 @@ function OurLife() {
                 2022.02 ~ 2022.03 | 개인 프로젝트
             </ProjectDay>
             <Grid container spacing={3}>
-                <Grid item md={7} sm={12} xs={12} style={{ margin: '0 auto' }}>
+                <Grid item md={7} sm={12} xs={12} style={{ marginBottom: '1.5rem' }}>
                     <Slider {...settings}>
                         <div>
                             <Images src={main} alt="메인 홈" />
